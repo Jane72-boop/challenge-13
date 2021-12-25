@@ -1,0 +1,268 @@
+html {
+  font-size: 62.5%;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  font-family: 'Poppins', 'Open Sans', Arial, Helvetica, sans-serif;
+  background-image: url("/images/bg-mobile.svg");
+  background-color: #674baf;
+}
+
+.comp {
+  width: Min(90%, 70em);
+  margin: 2em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.logo-illustration {
+  width: Min(100%, 50em);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-illustration .logodiv {
+  width: Min(80%, 18em);
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.logo-illustration .logodiv img {
+  width: 100%;
+}
+
+.logo-illustration .illusdiv {
+  width: Min(100%, 50em);
+  margin: 3em 0;
+}
+
+.logo-illustration .illusdiv img {
+  width: 100%;
+}
+
+.information-socmed-container {
+  width: Min(100%, 40em);
+}
+
+.information-socmed-container .information-cont {
+  color: #fff;
+}
+
+.information-socmed-container .information-cont h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.information-socmed-container .information-cont p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.information-socmed-container .information-cont button {
+  border: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color: #fff;
+  color: #674baf;
+  width: 80%;
+  padding: .8em 0;
+  border-radius: 50px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-top: .8em;
+  -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+}
+
+.information-socmed-container .information-cont button:hover {
+  color: #fff;
+  background-color: #e882e8;
+  cursor: pointer;
+}
+
+.information-socmed-container .socmed-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.5em;
+}
+
+.information-socmed-container .socmed-cont i {
+  width: 1.6em;
+  height: 1.8em;
+  font-size: 2.8em;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: .2em;
+  border-radius: 100%;
+  height: 100%;
+  margin-top: 1.6em;
+  vertical-align: middle;
+  line-height: 1.1em;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.information-socmed-container .socmed-cont i:hover {
+  color: #e882e8;
+  border: 1px solid #e882e8;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+  .comp {
+    width: Min(90%, 120em);
+    margin: 8em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 5em;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .logo-illustration {
+    width: Min(100%, 70em);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo-illustration .illusdiv {
+    width: Min(100%, 70em);
+    margin: 3em 0;
+  }
+  .information-socmed-container {
+    width: Min(90%, 48em);
+    text-align: left;
+  }
+  .information-socmed-container .information-cont {
+    margin: 25% 0;
+  }
+  .information-socmed-container .information-cont h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .information-socmed-container .information-cont p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+  .information-socmed-container .information-cont button {
+    border: none;
+    font-family: inherit;
+    font-size: 1.6rem;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color: #fff;
+    color: #674baf;
+    width: 30%;
+    padding: .8em 0;
+    border-radius: 50px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: .8em;
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+  }
+  .information-socmed-container .information-cont button:hover {
+    color: #fff;
+    background-color: #e882e8;
+    cursor: pointer;
+  }
+  .information-socmed-container .socmed-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    gap: 1.8em;
+    text-align: center;
+  }
+  .information-socmed-container .socmed-cont i {
+    width: 1.6em;
+    height: 1.8em;
+    font-size: 2.8em;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .2em;
+    border-radius: 100%;
+    height: 100%;
+    margin-top: 1.6em;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  .information-socmed-container .socmed-cont i:hover {
+    color: #e882e8;
+    border: 1px solid #e882e8;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=main.css.map */
