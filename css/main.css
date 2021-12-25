@@ -162,8 +162,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #674baf;
-    min-height: 100vh;
-    overflow: hidden;
+    max-height: 100vh;
   }
   .comp {
     width: Min(90%, 120em);
